@@ -1,32 +1,4 @@
-# react-webpack-boilerplate
-
-My React + Webpack boilerplate 201905
-
-- yarn
-- webpack
-- typescript
-- prettier
-- tslint
-
-This code does **not** include framework, ci, and other (production) tools.
-
-## Bootstrap
-
-```bash
-# ... Setup node and yarn
-$ git clone git@github.com:kobakazu0429/react-webpack-boilerplate.git --depth 1 <your project name>
-$ cd <your project name>
-$ git fetch origin --unshallow
-$ git remote rm origin
-$ yarn install
-$ yarn dev    # Start webpack-dev-server
-$ yarn build  # Build to dist/
-$ yarn lint   # Check type and syntax
-```
-
----
-
-# {app_name}
+# Pokemon Shiritori
 
 ## How to dev
 
@@ -34,7 +6,7 @@ $ yarn lint   # Check type and syntax
 
 ```bash
 # ... Setup node and yarn
-$ git clone <git repository url>
+$ git clone git@github.com:kobakazu0429/pokemon-shiritori.git
 $ cd <your project name>
 $ yarn install
 ```
