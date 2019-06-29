@@ -10,7 +10,7 @@ export default ({ history, match }: RouteComponentProps<IShiritori>) => {
   const { keyword } = params;
 
   const handleClick = React.useCallback(
-    (name: string) => (_: any) => {
+    (name: string) => (_: React.MouseEvent<HTMLLIElement, MouseEvent>) => {
       history.push(`/shiritori/${lastName(name)}`);
     },
     []
